@@ -17,6 +17,7 @@ var bookingRouter=require("./routes/bookingRoutes");
 var cookieParser=require("cookie-parser");
 var bodyParser=require("body-parser");
 // const port=3000;
+// Start express
 var app=express();
 
 app.set("view engine","pug");
