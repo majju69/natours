@@ -1,7 +1,7 @@
 import "@babel/polyfill";
 import {login, logout} from "./login";
 import {updateSettings} from "./updateSettings"
-import {bookTour} from "./stripe"
+// import {bookTour} from "./stripe"
 
 // DOM ELEMENTS
 var loginForm=document.querySelector(".form--login");
@@ -26,6 +26,7 @@ if(loginForm)
 
 if(logOutBtn)
 {
+    console.log("Logout");
     logOutBtn.addEventListener("click",logout);
 }
 
